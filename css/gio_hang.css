@@ -1,0 +1,144 @@
+body{
+    background-color: #f1f1f1;
+}
+.dau {
+    background-color: #be1e2d;
+    height: 40px;
+    width: 99%;
+    font-size: 20px;
+    padding: 10px;
+    color: aliceblue;
+}
+.hotline {
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+    width: 350px;
+}
+
+.thongbao {
+    position: absolute;
+    left: 95%;
+}
+.gio_hang{
+    background-color: #be1e2d;
+    width: 80px;
+    color: aliceblue;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.chon_tong {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin-left: 300px;
+    margin-top: 35px;
+  }
+.chon_tong:checked {
+    background-color: black;
+}
+.chon {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin: 20px;
+  }
+.chon:checked {
+    background-color: black;
+}
+.text_chon {
+    position: relative;
+    font-size: 20px;
+    bottom: 4px;
+    margin-left: 10px;
+}
+.khung{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 700px;
+    margin-left: 300px;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.anh{
+    margin-top: 20px;
+}
+.ten{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.gia{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #be1e2d;
+    position: relative;
+    top: 30px;
+    right: 230px;
+}
+.so{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10px;
+    border: 0px;
+}
+.tang{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.giam{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.text_gia{
+    top: 30px;
+    right: 230px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+.trash_can_icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+.mua_hang{
+    background-color: #be1e2d;
+    width: 150px;
+    color: aliceblue;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 800px;
+
+}

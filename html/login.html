@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="/css/style(login).css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="dau">
+    <img src="/img/hotline.png" height="40px">
+    <img class="thongbao" src="/img/thongbao.png" height="40px">
+    <div class="hotline">Hotline:1800 2004 | <b>Hệ thống cửa hàng</b></div>
+    <img class="logo" src="/img/logo.jpg" alt="">
+</div>
+<div>
+  <strong class="text">Đăng Nhập TSTmember</strong>
+  <div class="khung">
+    <div class="khung_dang_nhap">
+      <input class="login" type="text" placeholder="Nhập số điện thoại/email">
+      <input class="login" type="password" placeholder="Nhập mật khẩu">
+      <a href="/html/quen_mat_khau.html" target="_blank" class="quen_mk">Quên mật khẩu?</a>
+    </div>
+    <div>
+      <input class="login" type="submit" value="Đăng nhập" onclick="dang_nhap()"></input>
+  </div>
+  <div>
+    <b class="dang_ki1">bạn chưa có tài khoản?<a class="dang_ki2" href="/html/dang_ki.html">Đăng kí ngay</a></b>
+  </div>
+</div>
+</body>
+<script>
+  function dang_nhap(){
+    window.location.href = "/html/index.html";
+  };
+</script>
+</html>

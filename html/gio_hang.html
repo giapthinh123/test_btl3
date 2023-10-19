@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Giỏ hàng</title>
+  <link rel="stylesheet" href="/css/gio_hang.css">
+</head>
+<body>
+  <div class="dau">
+    <img src="/img/hotline.png" height="40px">
+    <img class="thongbao" src="/img/thongbao.png" height="40px">
+    <div class="hotline">Hotline:1800 2004 | <b>Hệ thống cửa hàng</b></div>
+  </div>
+  <div class="gio_hang">Giỏ hàng</div>
+  <input class="chon_tong" type="checkbox" onclick="toggleSelection()">
+  <label class="text_chon" id="all" >Chọn tất cả</label>
+  <div class="khung">
+    <input class="chon" type="checkbox">
+    <img class="anh" src="/img/anh_iphone.jpg" height="150px">
+    <div class="ten">Iphone 11 Pro Max 64GB</div>
+    <div class="gia">29.990.000đ</div>
+    <button class="giam" onclick="decreaseQuantity()">-</button>
+    <input class="so" type="text" value="1">
+    <button class="tang" onclick="increaseQuantity()">+</button>
+    <svg viewBox="0 0 1024 1024" class="trash_can_icon">
+        <path
+          d="M768 298.667v554.667c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-426.667c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-554.667zM725.333 213.333v-42.667c0-35.328-14.379-67.413-37.504-90.496s-55.168-37.504-90.496-37.504h-170.667c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v42.667h-170.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h42.667v554.667c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h426.667c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-554.667h42.667c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667zM384 213.333v-42.667c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h170.667c11.776 0 22.4 4.736 30.165 12.501s12.501 18.389 12.501 30.165v42.667zM384 469.333v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM554.667 469.333v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667z"
+        ></path>
+      </svg>
+  </div>
+  <div class="khung">
+    <input class="chon" type="checkbox">
+    <img class="anh" src="/img/anh_iphone.jpg" height="150px">
+    <div class="ten">Iphone 11 Pro Max 64GB</div>
+    <div class="gia">29.990.000đ</div>
+    <button class="giam" onclick="decreaseQuantity()">-</button>
+    <input class="so" type="text" value="1">
+    <button class="tang" onclick="increaseQuantity()">+</button>
+    <svg viewBox="0 0 1024 1024" class="trash_can_icon">
+        <path
+          d="M768 298.667v554.667c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-426.667c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-554.667zM725.333 213.333v-42.667c0-35.328-14.379-67.413-37.504-90.496s-55.168-37.504-90.496-37.504h-170.667c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v42.667h-170.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h42.667v554.667c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h426.667c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-554.667h42.667c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667zM384 213.333v-42.667c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h170.667c11.776 0 22.4 4.736 30.165 12.501s12.501 18.389 12.501 30.165v42.667zM384 469.333v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM554.667 469.333v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667z"
+        ></path>
+      </svg>
+  </div>
+  <div class="text_gia">Tạm tính:<b style="color: #be1e2d;">0đ</b></div>
+  <button class="mua_hang" onclick="thong_tin()">mua ngay</button>
+</body>
+<script>
+  function thong_tin() {
+    window.location.href = "/html/nhap_thong_tin.html";
+  }
+    const input = document.querySelector('.so');
+
+    function increaseQuantity() {
+      const currentValue = parseInt(input.value);
+      input.value = currentValue + 1;
+    }
+
+    function decreaseQuantity() {
+      const currentValue = parseInt(input.value);
+      if (currentValue > 1) {
+        input.value = currentValue - 1;
+      }
+    }
+
+    function toggleSelection() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]:not(.chon_tong)');
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = !checkbox.checked;
+    });
+  }
+  </script>
+</html>

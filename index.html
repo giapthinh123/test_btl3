@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>bài tập lớn</title>
+    <script src="index.js"></script>
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+    <div>
+        <div class="dau">
+            <img src="/img/hotline.png" height="40px">
+            <img class="thongbao" src="/img/thongbao.png" height="40px">
+            <div class="hotline">Hotline:1800 2004 | <b>Hệ thống cửa hàng</b></div>
+        </div>
+        <div class="dang_nhap">
+            <img class="anh_logo logo" onclick="logo()" src="/img/logo.jpg">
+            <div class="text_logo logo">TST.SHOP</div>
+            <div class="tim_kiem logo">
+                <input class="thanh_tim_kiem" id="searchInput" type="text" placeholder="Bạn cần tìm gì ?">
+                <button class="tim" onclick="search()">Tìm</button>
+            </div>
+        <div class="content-dang-nhap logo">
+            <button class="text_dang_nhap" id="dang_nhap" onclick="dang_nhap()">
+                Dăng nhập
+            </button>
+            <div class="text_dang_nhap">
+                |
+            </div>
+            <button class="text_dang_nhap" id="dang_ki" onclick="dang_ki()">
+                Đăng kí
+            </button>
+        </div>
+        <svg viewBox="0 0 1024 1024" id="cart-icon" onclick="gio_hang()" class="gio_hang_icon">
+            <path
+              d="M512 554q88 0 151-62t63-150h-86q0 52-38 90t-90 38-90-38-38-90h-86q0 88 63 150t151 62zM512 128q-52 0-90 38t-38 90h256q0-52-38-90t-90-38zM810 256q34 0 60 26t26 60v512q0 34-26 59t-60 25h-596q-34 0-60-25t-26-59v-512q0-34 26-60t60-26h84q0-88 63-151t151-63 151 63 63 151h84z"
+             ></path>
+          </svg>
+        </div>
+    </header>
+    <div style="background-color: #be1e2d;height: 35px; margin-top: 10px;">
+        </div>
+        <div style="background-color: #ababab;height: 3px;margin-top: 5px;"></div>
+        <strong class="text" style="left: 0; margin-top: 2px;margin-bottom: 0px;color: red;">Trang chủ</strong>
+        <div style="background-color: #ababab;height: 3px;margin-top: 5px;"></div>
+        <div class="san_pham">
+        </div>
+        <button class="chuyen_trang">2</button>
+        <button class="chuyen_trang">3</button>
+        <div style="background-color: #ababab;height: 5px;"></div>
+        <div class="tong_thong_tin">
+            <div class="thong_tin_1">
+                <strong class="tieu_de_thong_tin">Tổng dài hỗi trợi miễn phí</strong>
+                <p class="thong_tin_nho">Gọi kiếu nại:<u>1800.2063</u>(8h00-21h30)</p>
+                <p class="thong_tin_nho">Gọi mua hàng:<u>1800.2097</u>(7h30-22h00)</p>
+                <p class="thong_tin_nho">Gọi bảo hành:<u>1800.2064</u>(8h00-21h00)</p>
+            </div>
+            <div class="thong_tin_2">
+                <strong class="tieu_de_thong_tin">Thông tin và chính sách</strong>
+                <a href="thong_tin.html" class="thong_tin_nho">Mua hàng và thanh toán </a>
+                <a href="thong_tin.html" class="thong_tin_nho">Mua hàng và thanh toán Online</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Mua hàng trả góp Online</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Chính sách giao hàng</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Tra thông tin bảo hành</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Tra cứu hoá đơn điện tử</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Thông tin hoá đơn mua hàng</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Trung tâm bảo hành chính hãng Quy định về việc sao lưu dữ liệu</a>
+            </div>
+            <div class="thong_tin_3">
+                <strong class="tieu_de_thong_tin">Dịch vụ và thông tin khác</strong>
+                <a href="thong_tin.html" class="thong_tin_nho">Ưu đãi thanh toán</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Quy chế hoạt động</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Chính sách Bảo hành</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Liên hệ hợp tác kinh doanh</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Tuyển dụng</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Dịch vụ bảo hành điện thoại</a>
+                <a href="thong_tin.html" class="thong_tin_nho">Dịch vụ bảo hành mở rộng</a>
+            </div>
+            <div class="thong_tin_icon">
+                <strong style="margin: 10px;font-size: 30px;">Kết nối với TST.Shop</strong><br><br>
+                <img class="thong_tin_nho_icon" src="/img/yt.png" alt="" onclick="youtube()" height="50px">
+                <img class="thong_tin_nho_icon" src="/img/fb.png" alt="" onclick="facebook()" height="60px">
+                <img class="thong_tin_nho_icon" src="/img/ins.png" alt="" onclick="instagram()" height="60px">
+            </div>
+        </div>
+        <div style="background-color: #be1e2d;height: 35px;"></div>
+        <script>
+            // Lấy tất cả các nút chuyển trang
+            const buttons = document.querySelectorAll('.chuyen_trang');
+            // Lặp qua từng nút và thêm sự kiện click
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Lấy số trang từ nội dung của nút
+                    const page = button.textContent;
+                    // Điều hướng đến trang tương ứng
+                    window.location.href = `/html/page${page}.html`;
+                });
+            });
+        </script>
+</body>
+
+</html>

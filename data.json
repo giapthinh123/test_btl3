@@ -1,0 +1,165 @@
+{
+    "thong_tin_hang":[
+        {
+            "ten":" iPhone 15 128GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":22490000
+        },
+        {
+            "ten":" iPhone 14 Pro Max 128GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":25990000
+        },
+        {
+            "ten":" iPhone 14 128GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":18790000
+        },
+        {
+            "ten":" iPhone 13 128GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":16390000,
+            "anh":"anh_iphone.jpg"
+        },
+        {
+            "ten":" iPhone 13 Pro Max 128GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":24290000
+        },
+        {
+            "ten":" iPhone 11 64GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":10490000
+        },
+        {
+            "ten":" iPhone 12 128GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":14790000
+        },
+        {
+            "ten":" iPhone 13 256GB | Chính Hãng VN/A",
+            "loai":"Apple",
+            "gia":19990000
+        },
+        {
+            "ten":" Samsung Galaxy S23 Ultra 256GB",
+            "loai":"SamSung",
+            "gia":23590000
+        },
+        {
+            "ten":" Samsung Galaxy Z Fold5 12G 256GB",
+            "loai":"SamSung",
+            "gia":34990000
+        },
+        {
+            "ten":" Samsung Galaxy Z Flip5 256GB",
+            "loai":"SamSung",
+            "gia":19990000
+        },
+        {
+            "ten":" Samsung Galaxy Z Flip 128GB",
+            "loai":"SamSung",
+            "gia":14490000
+        },
+        {
+            "ten":" Samsung Galaxy S22 Ultra (12-512GB)",
+            "loai":"SamSung",
+            "gia":36990000
+        },
+        {
+            "ten":" Samsung Galaxy Fold5 12G 1TB",
+            "loai":"SamSung",
+            "gia":45990000
+        },
+        {
+            "ten":" SamSung Galaxy Note 20 Ultra",
+            "loai":"SamSung",
+            "gia":29990000
+        },
+        {
+            "ten":" Samsung Galaxy S23 Plus 8G-512GB",
+            "loai":"SamSung",
+            "gia":20090000
+        },
+        {
+            "ten":" Xiaomi Redmi Note12 8G 128GB",
+            "loai":"Xiaomi",
+            "gia":5090000
+        },
+        {
+            "ten":" Xiaomi 13 Lite",
+            "loai":"Xiaomi",
+            "gia":9690000
+        },
+        {
+            "ten":" Xiaomi Redmi Note12 8G 256GB",
+            "loai":"Xiaomi",
+            "gia":7000000
+        },
+        {
+            "ten":" Xiaomi Redmi Note12 8G 512GB",
+            "loai":" Xiaomi",
+            "gia":10000000
+        },
+        {
+            "ten":" Xiaomi Redmi 12C 4GB-64",
+            "loai":"Xiaomi",
+            "gia":2590000
+        },
+        {
+            "ten":" Xiaomi 13 8G 256GB",
+            "loai":"Xiaomi",
+            "gia":18490000
+        },
+        {
+            "ten":" Xiaomi POCO X5 Pro 5G 6G 128GB",
+            "loai":"Xiaomi",
+            "gia":6550000
+        },
+        {
+            "ten":" Xiaomi 13 Pro 12D 256GB",
+            "loai":"Xiaomi",
+            "gia":5090000
+        },
+        {
+            "ten":" Nokia C21 G11 Plus 3G 32GB",
+            "loai":"Nokia",
+            "gia":710.000
+        },
+        {
+            "ten":" Nokia G11 Plus 3G 32GB",
+            "loai":"Nokia",
+            "gia":710.000
+        },
+        {
+            "ten":" Nokia 130",
+            "loai":"Nokia",
+            "gia":510.000
+        },
+        {
+            "ten":" Nokia 110 4G Pro",
+            "loai":"Nokia",
+            "gia":710.000
+        },
+        {
+            "ten":" Nokia C3",
+            "loai":"Nokia",
+            "gia":2550000
+        },
+        {
+            "ten":" Nokia 110 4G",
+            "loai":"Nokia",
+            "gia":850.000
+        },
+        {
+            "ten":" Nokia X10 5G",
+            "loai":"Nokia",
+            "gia":5490000
+        },
+        {
+            "ten":" Nokia 8210 4G",
+            "loai":"Nokia",
+            "gia":1490000
+        }
+    ]
+}
